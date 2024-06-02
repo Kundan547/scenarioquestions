@@ -20,9 +20,9 @@ def reverse_sequence(N,L,R):
   return A
   
 
-N = int(input())
-L = int(input())
-R = int(input())
+N = 5
+L = 2 
+R = 4
 
 result =  reverse_sequence(N,L,R)
 print(result)
