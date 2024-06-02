@@ -16,6 +16,6 @@ while True:
     if plant_height > takahashi_height:
         print(f"The plant is taller than Takahashi on day {day}.")
         break
-    elif day > 100:  # add a limit to the number of days
+    elif day > 100: 
         print("Plant never taller than Takahashi.")
         break
